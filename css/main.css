@@ -1,0 +1,104 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: rgb(36, 53, 63);
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: transparent;
+    width: 75%;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: 10px 0;
+}
+
+.input {
+    width: 100%;
+}
+
+
+
+.input input::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+
+.help {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+th
+{
+    color: beige;
+}
+
+
+.help a {
+    font-size: 20px;
+    color: black;
+}
+
+.register {
+    color: black;
+    font-size: 22px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+#ProductBody
+{
+    color: beige;
+}
+.bg-Table
+{
+ 
+    width: 75%;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .bg-Table
+    {
+        width: 50%;
+    }
+}
